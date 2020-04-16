@@ -1,7 +1,9 @@
-const reversestring = function(string) {
-    if (string.length === 0) {
+const reversStr = (str) => {
+    if( str === '') {
         return ''
+    } else {
+        return reversStr(str.slice(1)) + str.charAt(0)
     }
- }
+}
 
- console.log(reversestring('hey'))
+console.log(reversStr('Hello'))

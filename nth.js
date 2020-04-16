@@ -1,4 +1,9 @@
-const nthNum = function(n) {
-  
+const nthtri = (n) => {
+    if( n <= 1 ) {
+        return 1
+    } else {
+        return n + nthtri(n -1)
+    }
 }
-console.log(nthNum(10));
+
+console.log(nthtri(3));

@@ -1,9 +1,9 @@
-const reversStr = (str) => {
-    if( str === '') {
+const reverse = (string) => {
+    if( string === '') {
         return ''
     } else {
-        return reversStr(str.slice(1)) + str.charAt(0)
+        return reverse(string.slice(1)) + string.charAt(0)
     }
 }
 
-console.log(reversStr('Hello'))
+console.log(reverse('Omar'));

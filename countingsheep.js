@@ -9,4 +9,4 @@ const countingSheep = function(number) {
     }
 }
 
-countingSheep(4)
+countingSheep(4);
